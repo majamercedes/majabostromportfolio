@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8"/>
+		<link href='bootstrap.min.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title></title>
+		<link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet' type='text/css'>
+
+	</head>
+	
+	<body>
+		<header>
+			<nav> 
+				<ul>
+					<li> <a href="#blue">WORK</a> </li>
+					<li> <a href="#container_marketing">ME</a> </li>
+					<li> <a href="#contact">CONTACT</a> </li>
+				</ul>
+			</nav>
+		</header>
+
+		    <div id="contact">
+		<div class="rowCentered">
+			<img class="huvudbild" src=medeskv2.png>
+		
+			<ul>
+				<li><a class="mail-icon1" href="https://se.linkedin.com/in/maja-boström-a5a7ab94"></a></li>
+				<li><a class="mail-icon2" href="http://www.majabostrom.com/"></a></li>
+				<li><a class="mail-icon3" href="mailto:maja.m.bostrom@gmail.com"></a></li>
+			</ul>
+
+			
+		</div>
+		</div>
+
+
+
+	<!--<a class="grid__item" href="#">
+						<h2 class="title title--preview">On Humans &amp; other Beings</h2>
+						<div class="loader">
+						::before
+						</div>
+
+						<span class="category">Stories for humans</span>
+						<div class="meta meta--preview">
+							<img class="meta__avatar" src="jag.svg" alt="author01" /> 
+							<span class="meta__date"><i class="fa fa-calendar-o">
+							</i> 
+							"9 Apr"
+						</span>
+							<span class="meta__reading-time"><i class="fa fa-clock-o">
+								::before 
+								</i> 
+								"3 min read"
+								</span>
+						</div>
+					</a>
+
+	<article class="content__item">
+							<span class="category category--full">Stories for humans</span>
+							<h2 class="title title--full">On Humans &amp; other Beings</h2>
+							<div class="meta meta--full">
+								<img class="meta__avatar" src="img/authors/1.png" alt="author01" />
+								<span class="meta__author"> ::before "Matthew Walters"</span>
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> "9 Apr" </span>
+								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> "3 min read" </span>
+	
+							</div>-->
+
+	  <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+	<div class="col-md-6">
+		<div id="blue"> 
+			<a href="project1.html" title="Transdev" name="Project1"><img src="mobil1.png"></a>
+			 </div>
+		</div>
+	
+		<div class="col-md-6">
+		<div id="grey"> 
+			<a href="project2.html" title="Bumpaphone" name="Bumpaphone"><img src="Bumpaphone.png"></a>
+		</div>
+		</div>
+
+		<div class="col-md-6">
+		<div id="yellow"> 
+			<a href="project3.html" title="Neatbox"><img src="neatboxstor.png"></a>
+		</div>
+		</div>
+
+		<div class="col-md-6">
+		<div id="orange"> 
+			<a href="project4.html" title="Pushedaway" name:"Project4"><img src="pushedaway.png"></a>
+		</div>
+		</div>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+     		 
+     <div id="container_marketing">
+     	<div class="about1">
+     	<h1> My skills </h1>
+     	</div>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="about" src="uxliten.png" alt="Generic placeholder image" width="250" height="210">
+          <h2 class="h2">User experience</h2>
+          <p>In today's hi-tech society It's important to understand how to navigate in the digital djungle. By using the principles of UX-design we can make it more natural and easy for the user to experience websites and apps.</p>
+
+          
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="about" src="designliten.png" alt="Generic placeholder image" width="250" height="210">
+          <h2 class="h2">Design</h2>
+          <p> I strive to create simple and clean UI-design for web and mobile with focus on innovation, content and usability. </p>
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="about" src="programmeringliten.png" alt="Generic placeholder image" width="250" height="210">
+          <h2 class="h2">Coding</h2>
+          <p> I have basic skills in html5/css and is eager to learn more! </p>
+        </div><!-- /.col-lg-4 -->
+      
+      </div><!-- /.row -->
+
+
+     </div><!--container_marketing-->
+
+
+
+		<script src="parallax.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		 <script>
+        (function() {
+            var $win = $(window);
+            
+            function checkScroll() {
+                if ($win.scrollTop() > 2500) {
+                    $win.off('scroll', checkScroll);
+                    $('.contactme center').fadeIn(2500);
+                }
+            }
+            
+            $win.scroll(checkScroll);
+        })();
+</script>
+	</body>
+</html>
