@@ -520,7 +520,7 @@ nav ul{
 
 .about{
 
-	margin-left:70px;
+	
 	padding-bottom: 20px;
 
 }
@@ -532,7 +532,14 @@ nav ul{
 	padding-left: 15%;
 	padding-right:15%;
 	padding-bottom:30%;
+	text-align:center;
 }
+
+.col-lg-4  {
+	
+	text-align:center;
+}
+
 
 .h1 {
 	text-align: center;
@@ -551,7 +558,7 @@ padding-right: 0px;
 padding-left: 0px;
 }
 
-.copyright { position: absolute; opacity: 0.9; font-size: 1,3rem; right: 43%; bottom: -300%;}
+.copyright { position: absolute; opacity: 0.9; font-size: 1,3rem; right: 35%; margin-bottom: 20px;}
 
 
 /*----ny responsive-----*/ 
