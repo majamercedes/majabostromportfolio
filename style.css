@@ -225,19 +225,18 @@ nav ul{
 
 
 	.page1 {
-	background-color: #f2f2f2;
+	background-color: #efefef;
 	
 	}
 
 	.project1{
-	background-color:#ffffff;
-	box-shadow: 1px -1px 20px #888888;
+	background-color:#f9f9f9;
 	margin:0 auto;
 	margin-top: 100px;
 	width:1050px;
-	height:2650px;
+	height:3880px;
 	margin-bottom: 30px;
-	border-radius:  1em;
+	border-radius: 1em;
 	}
 
 	.project1 h2{
@@ -250,20 +249,30 @@ nav ul{
 		margin-left:70px;
 	}
 
-	.mobil1 {
-	position:relative;
-	width:1050px;
-	height:610px;
-	border-top-right-radius: 1em;
-    border-top-left-radius: 1em;
+	.videoWrapper {
+		padding-left:17%; 
+		height: 0;
+		width: 100%; 
+		padding-bottom: 30.25%;
+		padding-top: 65px;
 	}
+
+	.mobil11 {
+	position:relative;
+	margin-top:-4px;
+	width:1050px;
+	height:470px;
+	
+	
+	}
+	
 
 	.processt
 	{
 	margin-top:-3px;	
 	position:relative;
 	width:1050px;
-	height:700px;
+	height:1825px;
 	}
 
 	.mobilbildclaudio {
@@ -274,11 +283,21 @@ nav ul{
 	}
 
     .mobilbild1 {
-    margin-top:45px;
+    margin-top:140px;
 	position:relative;
 	width:1050px;
-	height:600px;
+	height:506px;
 
+	}
+
+.descriptionproject {
+    width: 75%;
+    float: left;
+    left: 10%;
+    top: 1%;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 4%;
 	}
 
 	.goback{
@@ -328,12 +347,11 @@ nav ul{
 	}
 
 	.project2{
-	background-color:#ffffff;
-	box-shadow: 1px -1px 20px #888888;
+	background-color:#f9f9f9;
 	margin:0 auto;
 	margin-top: 100px;
 	width:1050px;
-	height:1810px;
+	height:1920px;
 	margin-bottom: 30px;
 	border-radius:  1em;
 	}
@@ -346,6 +364,16 @@ nav ul{
 	.project2 p{
 		margin-top: 30px;
 		margin-left:70px;
+	}
+
+	.descriptionproject {
+    width: 75%;
+    float: left;
+    left: 10%;
+    top: 1%;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 4%;
 	}
 
 	.goback{
@@ -386,12 +414,11 @@ nav ul{
 	}
 
 	.project3{
-	background-color:#ffffff;
-	box-shadow: 1px -1px 20px #888888;
+	background-color:#f9f9f9;
 	margin:0 auto;
 	margin-top: 100px;
 	width:1050px;
-	height:3650px;
+	height:3900px;
 	margin-bottom: 30px;
 	border-radius:  1em;
 	}
@@ -413,6 +440,16 @@ nav ul{
 	height:3100px;
 	border-top-right-radius: 1em;
     border-top-left-radius: 1em;
+	}
+
+	.descriptionproject {
+    width: 75%;
+    float: left;
+    left: 10%;
+    top: 1%;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 4%;
 	}
 
 	.goback{
@@ -452,12 +489,11 @@ nav ul{
 	}
 
 	.project4{
-	background-color:#ffffff;
-	box-shadow: 1px -1px 20px #888888;
+	background-color:#f9f9f9;
 	margin:0 auto;
 	margin-top: 100px;
 	width:1050px;
-	height:2490px;
+	height:2520px;
 	margin-bottom: 30px;
 	border-radius: 1em;
 	}
@@ -470,6 +506,16 @@ nav ul{
 	.project4 p{
 		margin-top: 30px;
 		margin-left:70px;
+	}
+
+
+	.mobil14 {
+	position:relative;
+	width:1050px;
+	height:600px;
+	border-radius:  1em;
+	
+	
 	}
 
 	.Pushedaway {
@@ -486,6 +532,16 @@ nav ul{
 	position:relative;
 	width:1050px;
 	height:700px;
+	}
+
+	.descriptionproject {
+    width: 75%;
+    float: left;
+    left: 10%;
+    top: 1%;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 4%;
 	}
 
 	.goback4{
