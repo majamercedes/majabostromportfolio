@@ -1,6 +1,8 @@
 
 p { font-family: 'Josefin Sans', sans-serif; }
 
+h2 { font-family: 'Poiret One', cursive; }
+
 body {
 	padding:0;
 	margin:0;
@@ -363,7 +365,6 @@ nav ul{
 	}
 
 	.project2 h2{
-		font-family: 'Poiret One', cursive;
 		margin-top: 25px;
 		margin-left:70px;
 	}
